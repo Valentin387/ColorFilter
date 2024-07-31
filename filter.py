@@ -38,9 +38,9 @@ def filter_image(input_image_path, output_image_path, target_colors_rgb):
     filtered_image.save(output_image_path)
 
 if __name__ == "__main__":
-    input_image_path = "dragon.png"  # Replace with the path to your input image
-    output_image_path = "dragon_result.png"  # Replace with the desired output path
-    target_colors_rgb = [(63, 72, 204), (34, 177, 76), (163, 73, 164)]  # Replace with the RGB colors you want to preserve
+    input_image_path = "f1.png"  # Replace with the path to your input image
+    output_image_path = "f1_result.png"  # Replace with the desired output path
+    target_colors_rgb = [(199, 16, 26)]  # Replace with the RGB colors you want to preserve
 
     filter_image(input_image_path, output_image_path, target_colors_rgb)
     print("\n\n END OF LINE \n\n")

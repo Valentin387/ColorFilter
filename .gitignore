@@ -5,3 +5,8 @@ __pycache__/
 venv/
 env/
 .venv/
+
+
+# Image formats
+*.png
+*.jpg
